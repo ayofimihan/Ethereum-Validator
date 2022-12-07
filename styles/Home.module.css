@@ -7,13 +7,7 @@
   font-family: "Courier New", Courier, monospace;
 }
 
-.footer {
-  display: flex;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -41,16 +35,7 @@
   font-size: 1.2rem;
 }
 
-.button {
-  /* border: none;
-  color: pink;
-  font-size: 10px; */
-  cursor: pointer;
-  color: black;
-  margin-left: -62px;
-  width: 60px;
-  border-radius: 16px;
-}
+
 
 .formDiv{
   display: flex;
@@ -64,6 +49,7 @@
   margin: 5px 10px;
   outline: none;
   width: 300px;
+  background-color: inherit;
 }
 .formDiv button{
   padding: .5rem 1rem;
@@ -90,15 +76,16 @@
   border: 1px dotted black;
   color: black;
 }
+.btnglow:hover {
+  box-shadow: rgba(111,76,255,0.5) 0px 0px 20px 0px;
+}
 
 .link {
   text-decoration: underline;
   color: rgb(197, 191, 0);
 }
 
-.btnglow:hover {
-  box-shadow: rgba(111, 76, 255, 0.5) 0px 0px 20px 0px;
-}
+
 @media (max-width: 1000px) {
   .main {
     width: 100%;
