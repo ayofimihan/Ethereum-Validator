@@ -39,6 +39,7 @@ export default function Home() {
             className={styles.link}
             href={`https://etherscan.io/address/${etherscanAddress}`}
             target={'_blank'}
+            rel="noreferrer"
           >
             View on Etherscan.
           </a>
