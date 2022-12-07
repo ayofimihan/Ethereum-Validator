@@ -129,6 +129,7 @@ export default function Home() {
                 disable={inputAddress ? true : false}
                 onClick={handleClick}
                 type="submit"
+                style={{backgroundColor: 'black', color: 'white'}}
               >
                 {loading ? loader() : "Validate"}
               </button>
