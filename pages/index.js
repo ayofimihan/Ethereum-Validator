@@ -126,10 +126,10 @@ export default function Home() {
                 value={inputAddress}
               ></input>
               <button
-                disable={inputAddress ? true : false}
+                disabled={inputAddress=='' ? true : false}
                 onClick={handleClick}
                 type="submit"
-                style={{backgroundColor: 'black', color: 'white'}}
+                className={styles.btn}
               >
                 {loading ? loader() : "Validate"}
               </button>

@@ -60,7 +60,7 @@
 }
 
 .formDiv button:hover {
-  background-color: bisque;
+  background-color: black;
 }
 
 .btnAddress {
@@ -78,6 +78,22 @@
 }
 .btnglow:hover {
   box-shadow: rgba(111,76,255,0.5) 0px 0px 20px 0px;
+}
+.btn{
+  background-color: rgb(7, 7, 7);
+  color: azure;
+}
+
+.btn:disabled,
+.btn[disabled]{
+  border: 1px solid #999999;
+  background-color: black;
+  opacity: 0.6;
+  color: #666666;
+  
+}
+.btn:disabled:hover{
+  cursor:default
 }
 
 .link {
